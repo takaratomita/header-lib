@@ -53,7 +53,7 @@ const headerOptions = {
 
 ## オプション
 - menu(Object): 個別のメニュー設定
-      - name(String): メニューの表示名
+-     - name(String): メニューの表示名
       - class(String): メニューのclass属性
       - link(String): メニューのhref属性
       - isAnothe(Boolean): 別タブ表示（Boolean）
