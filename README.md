@@ -5,6 +5,7 @@
 3. header-lib.jsより前でheaderOptionsを定義
 
 ```
+//サンプル
 const headerOptions = {
       menus: [ // メニューの設定
                 {
