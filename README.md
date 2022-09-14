@@ -52,7 +52,7 @@ const headerOptions = {
 ```
 
 ## オプション
-- menu(Object): 個別のメニュー設定
+- menu(Object): 個別のメニュー設定 |
       - name(String): メニューの表示名
       - class(String): メニューのclass属性
       - link(String): メニューのhref属性
