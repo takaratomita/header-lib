@@ -6,7 +6,7 @@
 
 ```
 //サンプル
-const headerOptions = {
+    const headerOptions = {
       menus: [ // メニューの設定
                 {
                     name: 'TOP',
@@ -33,11 +33,16 @@ const headerOptions = {
                     class: 'contact',
                     link: '#',
                 },
+                // {
+                //     name: 'Google',
+                //     link: 'https://google.com',
+                //     isAnother: true,
+                // },
             ],
             active: {
                 // humberger: true, // ハンバーガーメニュー 表示設定
                 // menuStyle: 'vertical', /// メニューのスタイル
-                logo: '/img/logo.82b9c7a5.png', // ロゴのURL 無ければエレメント自体非表示
+                logo: 'https://jp.vuejs.org/images/logo.svg', // ロゴのURL 無ければエレメント自体非表示
                 // verticalLine: true, // メニュー間の縦線 縦のときは無し
                 menuHover: true, // ホバーエフェクト
             },
@@ -47,10 +52,14 @@ const headerOptions = {
                 {
                     humberger: true, // ハンバーガーメニュー 表示設定
                     menuStyle: 'vertical',/// メニューのスタイル
-                },
+                }, 
             ],
     }
 
+```
+4. マウントする要素を指定
+```html
+<div id="header-lib"></div>
 ```
 
 ## オプション
