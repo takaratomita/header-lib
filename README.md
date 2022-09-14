@@ -1,10 +1,10 @@
-# header-lib
-
 ## 初期設定
+
 1. headタグ内でheader-lib.cssを読み込む
 2. </body>タグの直前でheader-lib.jsを読み込む
 3. header-lib.jsより前でheaderOptionsを定義
-```js
+
+```
 const headerOptions = {
       menus: [ // メニューの設定
                 {
@@ -46,25 +46,27 @@ const headerOptions = {
                 {
                     humberger: true, // ハンバーガーメニュー 表示設定
                     menuStyle: 'vertical',/// メニューのスタイル
-                }, 
+                },
             ],
     }
+
 ```
 
 ## オプション
-- menu(Object): 個別のメニュー設定 |
-      - name(String): メニューの表示名
-      - class(String): メニューのclass属性
-      - link(String): メニューのhref属性
-      - isAnothe(Boolean): 別タブ表示（Boolean）
+
+- menu(Object): 個別のメニュー設定
+    - name(String): メニューの表示名
+    - class(String): メニューのclass属性
+    - link(String): メニューのhref属性
+    - isAnothe(Boolean): 別タブ表示（Boolean）
 - active(Object):
-      - humberger(Boolean): ハンバーガーメニュー
-      - menuStyle(String): メニューの並び（デフォルトで横、現在verticalのみ指定可）
-      - logo(string): ロゴのリンク
-      - verticalline(Boolean): メニュー間の区切り線
-      - menuHover(Boolean): ホバーエフェクト
+    - humberger(Boolean): ハンバーガーメニュー
+    - menuStyle(String): メニューの並び（デフォルトで横、現在verticalのみ指定可）
+    - logo(string): ロゴのリンク
+    - verticalline(Boolean): メニュー間の区切り線
+    - menuHover(Boolean): ホバーエフェクト
 - mq(Array): メディアクエリ
-      - max(Number): 画面幅が指定値以下の時
-      - min(Number): 画面幅が指定値以上の時
-      - (Object): 設定値の時、activeと入れ替わる
-            - activeと同様
+    - max(Number): 画面幅が指定値以下の時
+    - min(Number): 画面幅が指定値以上の時
+    - (Object): 設定値の時、activeと入れ替わる
+        - activeと同様
