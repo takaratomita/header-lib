@@ -1,8 +1,8 @@
 ## 初期設定
 
-1. headタグ内でheader-lib.cssを読み込む
-2. </body>タグの直前でheader-lib.jsを読み込む
-3. header-lib.jsより前でheaderOptionsを定義
+1. **head**タグ内で**header-lib.css**を読み込む
+2. **</body>**タグの直前で**header-lib.js**を読み込む
+3. **header-lib.js**より**前**で**headerOptions**を定義
 
 ```
 //サンプル
@@ -82,5 +82,5 @@
         - activeと同様
 
 ## その他
-- グローバルナビのカレント表示は、bodyタグのclass属性と個別メニュー設定のclassが同じ場合時、表示される
+- グローバルナビのカレント表示は、bodyタグのclass属性と個別メニュー設定のclassが同じ時、表示される
 - オプション外のスタイル変更は、header-lib.cssの読み込み箇所より下の位置で独自にスタイルを指定する
