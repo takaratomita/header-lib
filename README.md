@@ -58,6 +58,7 @@
 
 ```
 4. マウントする要素を指定
+※現状、id="header-lib"でしか指定できないので注意
 ```html
 <div id="header-lib"></div>
 ```
