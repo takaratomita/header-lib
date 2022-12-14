@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header-lib.min.css">
+    <title>ライブラリ使用 - ヘッダーライブラリのテスト</title>
+</head>
+<body id="body" class="index">
+    <div id="header-lib"></div>
+    <script>
+        //サンプル
+    const headerOptions = {
+      menus: [ // メニューの設定
+                {
+                    name: 'ホーム',
+                    class: 'index',
+                    link: '#',
+                },
+                {
+                    name: 'お知らせ',
+                    class: 'news',
+                    link: '#',
+                },
+                {
+                    name: 'サービス',
+                    class: 'service',
+                    link: '#',
+                },
+                {
+                    name: '会社概要',
+                    class: 'company',
+                    link: '#',
+                },
+                {
+                    name: 'お問い合わせ',
+                    class: 'contact',
+                    link: '#',
+                },
+                // {
+                //     name: 'Google',
+                //     link: 'https://google.com',
+                //     isAnother: true,
+                // },
+            ],
+            active: {
+                // humberger: true, // ハンバーガーメニュー 表示設定
+                // menuStyle: 'vertical', /// メニューのスタイル
+                logo: 'https://jp.vuejs.org/images/logo.svg', // ロゴのURL 無ければエレメント自体非表示
+                // verticalLine: true, // メニュー間の縦線 縦のときは無し
+                menuHover: true, // ホバーエフェクト
+            },
+            mq:[
+                'max', 767,
+                // 'min', 767,
+                {
+                    humberger: true, // ハンバーガーメニュー 表示設定
+                    menuStyle: 'vertical',/// メニューのスタイル
+                }, 
+            ],
+    }
+    </script>
+    <script src="../js/header-lib.min.js"></script>
+</body>
+</html>
