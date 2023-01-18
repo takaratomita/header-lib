@@ -1,3 +1,5 @@
+[サンプルページ](https://takaratomita.github.io/header-lib/lib-used/)
+
 ## 初期設定
 
 1. headタグ内でheader-lib.cssを読み込む
